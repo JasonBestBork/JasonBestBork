@@ -60,8 +60,8 @@ flowchart LR
 | | Achievement |
 |:--:|:--|
 | 📄 | **IEEE R10-HTC 2026**, first author and oral presenter: *AIoT Wearable System for Safety-Critical Sound Detection in Sensory-Impaired Users* (Bangkok, Thailand) |
-| 🥇 | **Oral Presentation Honorable Mention**, 2026 Taiwan–Korea VIP International Exchange Workshop |
-| 🥈 | **2nd Place, Project Presentation Award**, VIP Global Student Workshop (2025) |
+| 🥇 | **Oral Presentation Honorable Mention**, 2026 Taiwan–Korea VIP International Exchange Workshop, for part of my HAR thesis work |
+| 🥈 | **2nd Place, Project Presentation Award**, 2025 Taiwan–Korea VIP International Exchange Workshop, for Safe & Sound |
 | 🏅 | **Excellence Award**, NDHU CSIE Undergraduate Project Exhibition (2025) |
 
 ---
@@ -73,7 +73,7 @@ flowchart LR
 <td width="50%" valign="top">
 
 ### 🏃 Human Activity Recognition
-IMU signals → CWT scalograms → deep CNNs for activity classification.
+IMU signals → CWT scalograms → deep CNNs for activity classification. Part of this work won an Oral Presentation Honorable Mention (2026).
 
 `Python` `PyTorch` `TensorFlow` `Signal Processing`
 
