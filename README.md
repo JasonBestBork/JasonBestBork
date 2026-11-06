@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:642bd4,100:8ec127&text=Julian%20Martos%20Alvari%C3%B1o&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MSc%20%7C%20IoT%20%26%20Embedded%20ML%20%7C%20Human%20Activity%20Recognition&descAlignY=58&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:642bd4,100:8ec127&text=Julian%20Martos%20Alvari%C3%B1o&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MSc%20%7C%20IoT%20and%20Embedded%20ML%20%7C%20Human%20Activity%20Recognition&descAlignY=58&descSize=18" width="100%" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8EC127&center=true&vCenter=true&width=640&lines=MSc+Student+in+IoT+%26+Embedded+ML+%F0%9F%A7%A0;Human+Activity+Recognition+from+IMU+data+%F0%9F%8F%83;Wavelets+%2B+Deep+CNNs+%E2%9A%A1;First-author+IEEE+R10-HTC+2026+%F0%9F%93%84;Game+dev+%26+VR+for+fun+%F0%9F%8E%AE" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8EC127&center=true&vCenter=true&width=640&lines=MSc+Student+in+IoT+and+Embedded+ML+%F0%9F%A7%A0;Human+Activity+Recognition+from+IMU+data+%F0%9F%8F%83;Wavelets+%2B+Deep+CNNs+%E2%9A%A1;First-author+IEEE+R10-HTC+2026+%F0%9F%93%84;Game+dev+and+VR+for+fun+%F0%9F%8E%AE" alt="Typing SVG" /></a>
 
 <p>
   <a href="https://linkedin.com/in/julian-martos-alvarino"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
