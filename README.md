@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:642bd4,100:8ec127&text=Julian%20Martos%20Alvari%C3%B1o&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=MSc%20Computer%20Science%20%7C%20Machine%20Learning%20%C2%B7%20Sensor%20Data%20%C2%B7%20Efficient%20AI&descAlignY=58&descSize=18" width="100%" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8EC127&center=true&vCenter=true&width=640&lines=MSc+Student+in+Computer+Science+%F0%9F%8E%93;Human+Activity+Recognition+from+IMU+data+%F0%9F%8F%83;92.1%25+on+unseen+people+with+a+94k+CNN+%E2%9A%A1;Efficient+medical+vision-language+models+%F0%9F%A9%BA;First-author+IEEE+R10-HTC+2026+%F0%9F%93%84;Open+to+AI%2FML+engineering+roles+%F0%9F%9A%80" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8EC127&center=true&vCenter=true&width=640&lines=MSc+Student+in+Computer+Science+%F0%9F%8E%93;Human+Activity+Recognition+from+IMU+data+%F0%9F%8F%83;Turning+sensor+signals+into+images+%F0%9F%8C%8A;Efficient+medical+vision-language+models+%F0%9F%A9%BA;First-author+IEEE+R10-HTC+2026+%F0%9F%93%84;Open+to+AI%2FML+engineering+roles+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 <p>
   <a href="https://linkedin.com/in/julian-martos-alvarino"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -22,7 +22,7 @@
 
 I'm an **MSc student in Computer Science** at National Dong Hwa University (Taiwan), in the **Intelligent Computing and Mobile Network Lab**. I build machine learning systems end to end, from **raw sensor data to compact, carefully tested models**, with a focus on **healthcare**.
 
-- 🎓 **MSc** in Computer Science, NDHU (2025 – 2027), ranked **1st of 11** in my first semester
+- 🎓 **MSc** in Computer Science, NDHU (2025 – 2027)
 - 🔬 **Research:** Human Activity Recognition from cheap phone and smartwatch IMUs, and efficient medical vision-language models
 - 📄 **First-author paper** at IEEE R10-HTC 2026 (Bangkok, oral presentation)
 - 💼 **Open to** AI/ML engineering roles in Taiwan and abroad
@@ -33,40 +33,32 @@ I'm an **MSc student in Computer Science** at National Dong Hwa University (Taiw
 
 ---
 
-## 🧪 Research
+## 🧪 What I Work On
 
-### 🏃 Thesis: Human Activity Recognition from Low-Cost IMU Sensors
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I'm building a preprocessing pipeline that turns **raw accelerometer data from phones and smartwatches** into **Continuous Wavelet Transform (CWT)** images for CNNs, aimed at **medical and hospital use**. The long-term goal is a multi-sensor model where cheap sensors complement each other.
+### 🏃 Human Activity Recognition
+*MSc thesis*
 
-```mermaid
-flowchart LR
-    A[⌚ Raw IMU<br/>x, y, z] --> B[🧹 Audit + 20 Hz<br/>10 s windows]
-    B --> C[🌊 CWT<br/>RGB image]
-    C --> D[🧠 94k-param CNN<br/>+ motion features]
-    D --> E[🏃 Activity]
-```
+How can **cheap sensors in phones and smartwatches** help monitor patients? I turn raw motion (IMU) signals into **wavelet images** that a CNN can learn from, aiming at **medical and hospital use**, with several low-cost sensors working together.
 
-| Result (WISDM, tested on 10 people never used in training) | Accuracy | Macro F1 |
-|:--|:--:|:--:|
-| Always guess "Walking" | 45.4% | – |
-| Best published subject-wise result (ConvFormer, *Sensors* 2026) | 88.9% | 78.8 |
-| **My CNN (3 seeds)** | **92.1% ± 0.4** | **88.5 ± 0.3** |
+`Signal processing` `CNNs` `Healthcare`
 
-**Key finding:** how the image is built moves the score by up to **5.5 points**, while a **16× change in network size does not**. Random train/test splits inflate results by about 10 points, so every number here is split by person.
+</td>
+<td width="50%" valign="top">
 
-> [!NOTE]
-> **Next:** replication on MotionSense and HAPT, then accelerometer + gyroscope fusion across devices.
+### 🩺 Efficient Medical AI
+*Research project*
 
-### 🩺 Quantization of Medical Vision-Language Models
+Hospitals rarely have big GPUs. I study how **compressing medical vision-language models** to run on affordable hardware affects their accuracy, speed and energy use, and whether they still truly **look at the image**.
 
-Does a compressed medical AI model still **look at the image**, or does it answer from the question alone?
+`Vision-language models` `Quantization` `Efficient AI`
 
-- Evaluated **Qwen2-VL-2B** and **Qwen2.5-VL-3B** on **VQA-RAD** and **SLAKE**, from 16-bit down to 2-bit weights, with no-image and shuffled-image controls
-- Found and fixed a **bfloat16 tie bug** that shifted results by up to 8 points
-- Measured real GPU latency and energy: **INT8 was 2.0× slower and used 1.5× more energy** than bf16
-
-`PyTorch` `Hugging Face` `bitsandbytes` `VLMs` `Energy measurement`
+</td>
+</tr>
+</table>
 
 ---
 
@@ -74,7 +66,7 @@ Does a compressed medical AI model still **look at the image**, or does it answe
 
 | | |
 |:--|:--|
-| 🔭 **Working on** | Replicating my HAR pipeline on a second dataset |
+| 🔭 **Working on** | My MSc thesis on human activity recognition |
 | 🌱 **Learning** | Real-time optimization of deep learning models on edge devices |
 | 👁️ **Exploring** | Computer vision applications in my free time |
 | ⚡ **Fun fact** | I like content creation |
