@@ -219,15 +219,16 @@ Flappy Bird-inspired game in Python (pygame). Harvard CS50P certificate.
 
 ---
 
-## 📊 GitHub Stats
+## 🤝 Let's Connect
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=JasonBestBork&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ec127&icon_color=642bd4" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JasonBestBork&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8ec127" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=JasonBestBork&theme=tokyonight&hide_border=true&background=0d1117&ring=8ec127&fire=642bd4&currStreakLabel=8ec127" />
-  <br/>
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JasonBestBork&bg_color=0d1117&color=8ec127&line=642bd4&point=ffffff&area=true&hide_border=true" />
+
+I'm always happy to talk about **AI, IoT, sensors, healthcare tech** or **game development**,<br/>
+and I'm open to **AI/ML engineering opportunities** in Taiwan and around the world. 🌏
+
+<a href="https://linkedin.com/in/julian-martos-alvarino"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:julianmaral@gmail.com"><img src="https://img.shields.io/badge/Send_me_an_email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
 </div>
 
 ---
