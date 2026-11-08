@@ -40,9 +40,9 @@ I'm an **MSc student in Computer Science** at National Dong Hwa University (Taiw
 <td width="50%" valign="top">
 
 ### 🏃 Human Activity Recognition
-*MSc thesis*
+*MSc thesis · in progress* <img src="https://img.shields.io/badge/status-building-8ec127?style=flat-square" />
 
-How can **cheap sensors in phones and smartwatches** help monitor patients? I turn raw motion (IMU) signals into **wavelet images** that a CNN can learn from, aiming at **medical and hospital use**, with several low-cost sensors working together.
+How can **cheap sensors in phones and smartwatches** help monitor patients? I'm building a pipeline that turns raw motion (IMU) signals into **wavelet images** a CNN can learn from. The goal: **affordable activity monitoring for hospitals**, with several low-cost sensors working together.
 
 `Signal processing` `CNNs` `Healthcare`
 
@@ -50,7 +50,7 @@ How can **cheap sensors in phones and smartwatches** help monitor patients? I tu
 <td width="50%" valign="top">
 
 ### 🩺 Efficient Medical AI
-*Research project*
+*Research project · in progress* <img src="https://img.shields.io/badge/status-researching-642bd4?style=flat-square" />
 
 Hospitals rarely have big GPUs. I study how **compressing medical vision-language models** to run on affordable hardware affects their accuracy, speed and energy use, and whether they still truly **look at the image**.
 
@@ -59,6 +59,65 @@ Hospitals rarely have big GPUs. I study how **compressing medical vision-languag
 </td>
 </tr>
 </table>
+
+---
+
+## 🌌 Fields of Interest
+
+<div align="center">
+
+*Where intelligence meets the physical world: from the sensor on your wrist to the model that understands it.*
+
+</div>
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🧠 Artificial Intelligence
+Teaching machines to see, hear and understand people, and building AI that is **useful, trustworthy and human-centered**.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📈 Machine Learning
+Deep learning, CNNs and vision-language models, with a love for **clean data, honest evaluation and models that generalize**.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📡 Internet of Things
+Connecting sensors, wearables and microcontrollers into **smart systems** that sense the world and react in real time.
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### ⚡ Edge Computing
+Squeezing powerful models into **small, low-power devices**, so AI runs right where the data is born, fast and private.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🌊 Signal Processing
+Turning raw waves and motion into **meaningful patterns**: wavelets, spectrograms and time-frequency magic.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🏥 AI for Healthcare
+Affordable technology that helps **patients, hospitals and people with disabilities**, because good AI should reach everyone.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/AI-642bd4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Machine_Learning-642bd4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Deep_Learning-642bd4?style=for-the-badge" /> <img src="https://img.shields.io/badge/IoT-8ec127?style=for-the-badge" /> <img src="https://img.shields.io/badge/Edge_AI-8ec127?style=for-the-badge" /> <img src="https://img.shields.io/badge/Wearables-8ec127?style=for-the-badge" /> <img src="https://img.shields.io/badge/Healthcare_AI-D14836?style=for-the-badge" /> <img src="https://img.shields.io/badge/Game_Dev-181717?style=for-the-badge" />
+
+</div>
 
 ---
 
